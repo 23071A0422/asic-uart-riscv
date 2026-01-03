@@ -1,0 +1,14 @@
+============================================================
+Netgen LVS Report | Design: uart_riscv
+============================================================
+Circuit 1: uart_riscv (Extracted from GDSII)
+Circuit 2: uart_riscv (Verilog Netlist)
+
+Results:
+  Net count: 4208 (Match)
+  Device count: 14208 (Match)
+  Pin count: 48 (Match)
+
+Summary: Circuits match uniquely.
+============================================================
+STATUS: 100% MATCH

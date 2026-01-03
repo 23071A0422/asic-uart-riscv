@@ -1,0 +1,20 @@
+library (sky130_fd_sc_hd__mtj) {
+  delay_model : table_lookup;
+  
+  cell (sky130_fd_sc_hd__mtj_1) {
+    area : 3.7536;
+    pin(clk) { direction : input; clock : true; }
+    pin(write_en) { direction : input; }
+    pin(din) { direction : input; }
+    pin(dout) {
+      direction : output;
+      function : "IQ";
+      timing() {
+        related_pin : "clk";
+        timing_type : rising_edge;
+        intrinsic_rise : 0.45; # 450ps delay for spintronic switching
+        intrinsic_fall : 0.42;
+      }
+    }
+  }
+}

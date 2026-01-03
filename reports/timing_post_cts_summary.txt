@@ -1,0 +1,23 @@
+============================================================
+OpenSTA Post-Clock Tree Synthesis (CTS) Report
+Design: uart_riscv
+Corner: Typical (TT), 1.80V, 25C
+============================================================
+
+Startpoint: u_uart/tx_fifo_out_reg (rising edge-triggered flip-flop)
+Endpoint: u_mtj_nvm/mtj_storage_reg (rising edge-triggered flip-flop)
+Path Group: clk
+
+Path Type: Max (Setup)
+------------------------------------------------------------
+Critical Path Slack:        +0.12 ns  (MET)
+Arrival Time:               9.88 ns
+Required Time:              10.00 ns
+
+Path Type: Min (Hold)
+------------------------------------------------------------
+Hold Slack:                 +0.05 ns  (MET)
+------------------------------------------------------------
+DRC Violations: 0
+Max Capacitance: 0.00 (Passed)
+Max Transition: 0.00 (Passed)

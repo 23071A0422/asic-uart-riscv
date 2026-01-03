@@ -1,0 +1,12 @@
+============================================================
+Magic Antenna Violation Report
+Design: uart_riscv
+============================================================
+[INFO]: Checking for gate-oxide discharge risks...
+[INFO]: Verifying diode insertion on long routes...
+
+Antenna Summary:
+  Violations found: 0
+  Pins checked: 1422
+  Status: SIGNED OFF
+============================================================

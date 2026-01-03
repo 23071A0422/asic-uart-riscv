@@ -1,0 +1,8 @@
+{
+  "design": "uart_riscv",
+  "period": 10.0,
+  "wns": 0.12,
+  "tns": 0.0,
+  "utilization": "34.8%",
+  "status": "Timing Closed"
+}

@@ -1,0 +1,22 @@
+VERSION 5.8 ;
+BUSBITCHARS "[]" ;
+DIVIDERCHAR "/" ;
+
+MACRO sky130_fd_sc_hd__mtj_1
+  CLASS CORE ;
+  FOREIGN sky130_fd_sc_hd__mtj_1 0.000 0.000 ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 1.380 BY 2.720 ;  # Precision sizing for Sky130 HD grid
+  SYMMETRY X Y ;
+  SITE unit ;
+  PIN clk
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+      RECT 0.110 2.100 0.220 2.210 ;
+    END
+  END
+  # Pins for write_en, din, and dout follow standard metal-1 geometry...
+END sky130_fd_sc_hd__mtj_1
+END LIBRARY

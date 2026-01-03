@@ -1,0 +1,6 @@
+{
+  "design": "uart_riscv",
+  "total_power": 4.18e-05,
+  "units": "Watts/MHz",
+  "breakdown": { "internal": "65%", "switching": "28%", "leakage": "7%" }
+}

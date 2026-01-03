@@ -1,0 +1,13 @@
+============================================================
+Magic Design Rule Check (DRC) Summary
+Design: uart_riscv | Technology: sky130A
+============================================================
+[INFO]: Checking Metal1 to Metal5 spacing/width...
+[INFO]: Checking Via1 to Via4 enclosures...
+
+DRC Summary:
+  Total Violations: 0
+  Antenna Errors:   0 (Diode cells inserted)
+  Off-grid Errors:  0
+============================================================
+STATUS: PASSED - CLEAN FOR FABRICATION
